@@ -1,0 +1,156 @@
+/* 
+.card{
+  width: 30rem;
+  margin-left: 150px;
+  box-shadow: 2px 5px 29px;
+
+}
+/* .card:hover{
+  box-shadow: 2px 5px 29px;
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
+
+} */
+/* #login-btn{ */
+  /* background-color: rgb(29, 223, 29); */
+  /* font-weight: 500;
+  font-size: large;
+}
+#btn-login{ */
+  /* background-color: rgb(29, 223, 29); */
+  /* color: white; 
+  font-size: large;
+  font-weight: 500;
+  width: 150px;
+}
+#signup-btn{
+  font-weight: 500;
+  font-size: large;
+}
+#btn-signup{
+  font-weight: 500;
+  font-size: large;
+  width: 150px;
+}
+#forgot{
+  margin-right: 20vh;
+}
+.fa-solid{
+position: relative;
+top: 25px;
+left: 26rem;
+}
+#signup-container, #login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column-reverse;
+  position: relative;
+  top: 200px;
+  right: 59px;
+  
+}
+ */
+/* General container styles */
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field styling */
+.form-control {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Signup button */
+#signup-card .btn-success {
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* Login button */
+#login-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+#forgot {
+  font-size: 14px;
+  color: #dc3545;
+}
+
+#forgot:hover {
+  color: #c82333;
+}
+
+#create-account {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+#create-account:hover {
+  color: #17a2b8;
+}
+
+/* Icon styling */
+.fa-house {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.fa-house:hover {
+  color: #0056b3;
+}
+
+.authentication{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
